@@ -1,0 +1,125 @@
+ul{
+    list-style-type: none;
+    margin: 0%;
+    margin-right: 77%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgb(59, 59, 59);
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    float: left;
+    /* padding-right: 5%; */
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
+}
+body{
+    background-color: rgb(158, 158, 242);    
+    background-image: url('/OneDrive/Pictures/s.jpg');
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: cover; /* Adjust as needed */
+    /* background-attachment: fixed; Adjust as needed */
+    background-size: cover; /* Optional: Add padding to the paragraph for better visibility */
+    background-blend-mode: lighten;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    /* align-items: bottom;
+    height: 800px; */
+}
+
+.small-box {
+    width: 100px;
+    height: 50px;
+    background-color:rgb(148, 200, 246);
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    
+}
+.small-box:hover{
+    background-color: #3498db;
+    cursor: pointer;
+}
+p {
+    color: rgb(17, 7, 33);
+    background-color: aliceblue;
+    margin: 0%;
+}
+
+/* CREATE A SIMPLE BUTTON FOR link */
+.A9:link, .A9:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;/*not needed in this case */
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15%;
+  }
+  
+  .A9:hover, .A9:active {
+    background-color: red;
+  }
+
+img{
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);  
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    border: 5px solid black cover;
+    padding-left: 2%;
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+.Maintable,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+.Maintable{
+    width: 50%;
+}
+/* tr:nth-child(even){
+    background-color: #56b8b8;
+}
+tr:nth-child(odd){/
+    background-color: #f2f6f6;
+} */
+/* th:nth-child(even),td:nth-child(odd){
+    background-color: #56b8b8;
+} */
+/* Set default styles for th and td */
+th, td {
+    background-color: white; /* Set initial background color to transparent */
+    text-align: left;
+}
+
+/* Set background color for th and td when hovering */
+tr:hover th, tr:hover td {
+    background-color: rgb(141, 239, 239); /* Set background color on hover */
+}
+.A6:hover{
+    color: aqua;
+    cursor: pointer;
+
+}
+
+
+
