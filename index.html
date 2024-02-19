@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title id="A2">KSI</title>
+        <title>KSI</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-jpg" href="D:\OneDrive\Pictures\icons8-ksi-32.png">
     </head>
     <ul>
-        <li><a href="#home">Home</a></li>
+        <li id="A2"><a href="#home">Home</a></li>
         <li><a href="#News">News</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
-    </ul><br><br>
+    </ul>
+    <br><br><br>
     <body>
+        <div class="background-container"></div>
         <div class="centre">
             <div class="small-box">
                 KSI
             </div><br>
         </div>
 
-            <img src="D:\OneDrive\Pictures\ksi.jpg" alt="KSI"><br><br>
-
+            <img title="ksi" src="ksi.jpg" alt="KSI"><br><br>
             <p>Olajide Olayinka Williams "JJ" Olatunji (born 19 June 1993), known professionally as KSI, is an English Internet personality, professional boxer and musician. He is the CEO of Misfits Boxing and the co-owner of Prime Hydration, XIX Vodka, Sidemen Clothing, and restaurant chain Sides.
 
                 He registered his main YouTube channel in 2009 and has since built a following posting gaming commentary videos of the FIFA video game series. His content later diversified to include vlog and comedy-style videos. As of October 2022, he has over 41 million subscribers and over 10 billion video views across his three YouTube channels.</p>
             
-    </body>
-        <h2>KSI YT:<a class="A9" href="https://www.youtube.com/@jjolatunji" target="_blank">Youtube</a></h2>
-        <h1><u>Ksi Forehead Size</u></h1>
+                <h2>KSI YT:<a class="YT" href="https://www.youtube.com/@jjolatunji" target="_blank">Youtube</a></h2>
+                <h1><u>Ksi Forehead Size</u></h1>
         <table class="Maintable">
             <tr>
                 <th style="text-align: center;" colspan="3">Info</th>
@@ -46,6 +46,69 @@
                 <td>45</td>
                 <td>52</td>
             </tr>
-       </table>
-       
+        </table>
+        </div><br>
+        <div style="display: flex; justify-content: center; margin-left: 40px;">
+        <h3>Places Where KSI visited</h3></div>
+        <div class="Usingflex">
+            <div style="background-color:#FFF4A3;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London has over 13 million inhabitants.</p>
+            </div>
+              
+              <div style="background-color:#FFC0C7;">
+                <h2>Oslo</h2>
+                <p>Oslo is the capital city of Norway.</p>
+                <p>Oslo has over 600.000 inhabitants.</p>
+            </div>
+            
+              <div style="background-color:#20ca61;">
+                <h2>Rome</h2>
+                <p>Rome is the capital city of Italy.</p>
+                <p>Rome has almost 3 million.</p>
+            </div>
+            
+        </div><br>
+        <h1 id="Name"><u>Author of the webpage</u></h1>
+        <button onclick="changename()">Real Name</button>
+        <button onclick="changename2()">Get original text</button>
+        <script>
+            var originaltext=document.getElementById("Name").innerHTML
+            function changename() {
+                document.getElementById("Name").innerHTML="Roshan Dhakal";
+            }
+            function changename2(){
+                document.getElementById("Name").innerHTML=originaltext;
+            }
+        </script><br>
+        
+        <iframe style="width: 100%;" name="iframe" src="example.HTML" frameborder="0"></iframe>
+        <br><br><a href="https://en.wikipedia.org/wiki/KSI" target="iframe">Ksi wikipedia</a><br><br><br>
+        <p id="demo">FAATNEEK</p><br>
+        <button onclick="change()">Click</button>
+        <button onclick="change1()">Undo</button>
+        <script>
+            var a=document.getElementById("demo")
+            function change(){
+                document.getElementById("demo").style.fontFamily="Arial";
+                document.getElementById("demo").style.color="red";
+                document.getElementById("demo").style.background="yellow";
+
+            }
+            function change1(){
+                document.getElementById("demo").style.fontFamily="none";
+                document.getElementById("demo").style.color="black";
+                document.getElementById("demo").style.background="white";
+            }
+
+        </script><br><br><br>
+        <P class="X">
+            hi
+        </P><br><br><br>
+
+
+        
+        <a href="#A2">TOP</a>     
+</body>
 </html>

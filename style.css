@@ -1,28 +1,17 @@
-ul{
-    list-style-type: none;
-    margin: 0%;
-    margin-right: 77%;
-    padding: 0%;
-    overflow: hidden;
-    background-color: rgb(59, 59, 59);
-    padding-right: 10px;
-}
 a{
     text-decoration: none;
-    color:black;
+    color: rgb(215, 194, 194);
+    padding: 10px;
+    background-color: rgb(53, 54, 54);
+}
+ul{
+    list-style-type: none;
+    margin-left: -4%;
 }
 li{
     float: left;
-    /* padding-right: 5%; */
 }
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-li a:hover{
+a:hover{
     background-color: black;
 }
 body{
@@ -62,7 +51,7 @@ p {
 }
 
 /* CREATE A SIMPLE BUTTON FOR link */
-.A9:link, .A9:visited {
+.YT:link, .YT:visited {
     background-color: #f44336;
     color: white;
     padding: 15px 25px;
@@ -72,7 +61,7 @@ p {
     border-radius: 15%;
   }
   
-  .A9:hover, .A9:active {
+.YT:hover, .YT:active {
     background-color: red;
   }
 
@@ -95,6 +84,7 @@ img:hover{
 }
 .Maintable{
     width: 50%;
+    margin-left: 30%;
 }
 /* tr:nth-child(even){
     background-color: #56b8b8;
@@ -120,6 +110,29 @@ tr:hover th, tr:hover td {
     cursor: pointer;
 
 }
-
+.Usingflex{
+    display: flex;
+}
+.Usingflex div{
+    width: 33%;
+    border-right: 1px solid black;
+}
+/* Using grid */
+/* .Usingflex{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+ */
+.X{
+    display: inline-block;
+    border-radius: 15%;
+    margin-left: 35%;
+    background-color: blue;
+}
+.X:hover{
+    background: #f44336;
+    color: yellow;
+    cursor: pointer;
+} 
 
 
