@@ -135,4 +135,7 @@ tr:hover th, tr:hover td {
     cursor: pointer;
 } 
 
+label,input{
+    padding: 10px;
+}
 
