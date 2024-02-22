@@ -134,8 +134,3 @@ tr:hover th, tr:hover td {
     color: yellow;
     cursor: pointer;
 } 
-
-label,input{
-    padding: 10px;
-}
-
